@@ -1,0 +1,63 @@
+@startuml Simblissima_DiagramaClasses
+
+class User {
+    + id: Integer
+    + username: String
+    + first_name: String
+    + last_name: String
+    + email: String
+    + password: String
+    + is_staff: Boolean
+    + is_active: Boolean
+    + date_joined: DateTime
+}
+
+class Cliente {
+    + id: Integer
+    + user: OneToOneField
+    + cpf: String [11, unique]
+    + endereco: TextField
+    + telefone: String [15]
+    + __str__(): String
+}
+
+class Pedido {
+    + id: Integer
+    + cliente: ForeignKey
+    + data_criacao: DateTimeField
+    + data_atualizacao: DateTimeField
+    + status: String [20]
+    + valor_total: DecimalField
+    + valor_final: DecimalField
+    + metodo_pagamento: String [10]
+    + observacoes: TextField
+    + __str__(): String
+}
+
+class ItemPedido {
+    + id: Integer
+    + pedido: ForeignKey
+    + descricao: TextField
+    + preco: DecimalField
+    + __str__(): String
+}
+
+class StatusPedido {
+    + id: Integer
+    + pedido: ForeignKey
+    + status: String [20]
+    + data: DateTimeField
+    + comentario: TextField
+    + __str__(): String
+}
+
+note right of Pedido : STATUS_CHOICES:\nPENDENTE, AGUARDANDO_PAGAMENTO,\nCONFIRMADO, EM_TRANSITO,\nENTREGUE, CANCELADO
+
+note right of Pedido : METODO_PAGAMENTO_CHOICES:\nPIX, CARTAO, BOLETO
+
+User ||--|| Cliente : user
+Cliente ||--o{ Pedido : cliente
+Pedido ||--o{ ItemPedido : pedido (itens)
+Pedido ||--o{ StatusPedido : pedido (historico_status)
+
+@enduml

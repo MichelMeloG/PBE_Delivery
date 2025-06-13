@@ -1,0 +1,2096 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../mapa_mental/">
+      
+      
+        <link rel="next" href="../prototipo_alta_fidelidade/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Metodologia - Simblissima</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Simblissima" class="md-header__button md-logo" aria-label="Simblissima" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Simblissima
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Metodologia
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Simblissima" class="md-nav__button md-logo" aria-label="Simblissima" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Simblissima
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projeto Simblissima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Assets
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Assets
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Cronograma
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assets/Cronograma/cronograma_resumido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📅 Cronograma Simples - Projeto Simblissima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Swagger
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Swagger
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assets/Swagger/SWAGGER_IMPLEMENTATION_SUMMARY/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentação API Swagger - Implementação Final
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Construcao
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Construcao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../construcao/construcao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Construção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elaboracao
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Elaboracao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elaboracao/diagrama_de_casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Caso de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elaboracao/diagrama_de_classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Iniciacao
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Iniciacao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5w2h/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5W2H
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Brainstorm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brainstorm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma do Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documento_de_visao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Visão
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ideias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ideias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapa_mental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mapas Mentais
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologia
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodologias-e-praticas-adotadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologias e Práticas Adotadas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologias e Práticas Adotadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rup-rational-unified-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      RUP (Rational Unified Process)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desenvolvimento-iterativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvimento Iterativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kanban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kanban
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#praticas-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Práticas de Desenvolvimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Práticas de Desenvolvimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#versao-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versão 1.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arquitetura-e-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arquitetura e Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arquitetura e Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padrao-cliente-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrão Cliente-Servidor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padrao-mvt-model-view-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrão MVT (Model-View-Template)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#programacao-orientada-a-objetos-poo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programação Orientada a Objetos (POO)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnologias-e-ferramentas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias e Ferramentas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tecnologias e Ferramentas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ferramentas-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ferramentas de Desenvolvimento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#praticas-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Práticas de Qualidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Práticas de Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validacao-e-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validação e Segurança
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tratamento-de-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tratamento de Erros
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transacoes-atomicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transações Atômicas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-do-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização do Trabalho
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organização do Trabalho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quadro-kanban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quadro Kanban
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-elicitacao-de-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Técnicas de Elicitação de Requisitos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processo-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo de Desenvolvimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Processo de Desenvolvimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fases-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fases do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrospectivas-e-melhoria-continua" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrospectivas e Melhoria Contínua
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padroes-de-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões de Documentação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controle-de-versao-da-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controle de Versão da Documentação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autor(es)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo_alta_fidelidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Interacao
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Interacao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interacao/interacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interação 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/das/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Transicao
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Transicao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../transicao/transicao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Transição
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Util
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Util
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../util/doc_template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template de Documento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodologias-e-praticas-adotadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologias e Práticas Adotadas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologias e Práticas Adotadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rup-rational-unified-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      RUP (Rational Unified Process)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desenvolvimento-iterativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvimento Iterativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kanban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kanban
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#praticas-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Práticas de Desenvolvimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Práticas de Desenvolvimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#versao-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versão 1.0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arquitetura-e-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arquitetura e Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arquitetura e Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padrao-cliente-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrão Cliente-Servidor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#padrao-mvt-model-view-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrão MVT (Model-View-Template)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#programacao-orientada-a-objetos-poo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programação Orientada a Objetos (POO)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnologias-e-ferramentas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tecnologias e Ferramentas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tecnologias e Ferramentas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ferramentas-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ferramentas de Desenvolvimento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#praticas-de-qualidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Práticas de Qualidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Práticas de Qualidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validacao-e-seguranca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validação e Segurança
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tratamento-de-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tratamento de Erros
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transacoes-atomicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transações Atômicas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-do-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização do Trabalho
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organização do Trabalho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quadro-kanban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quadro Kanban
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-elicitacao-de-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Técnicas de Elicitação de Requisitos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processo-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo de Desenvolvimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Processo de Desenvolvimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fases-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fases do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrospectivas-e-melhoria-continua" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrospectivas e Melhoria Contínua
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padroes-de-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões de Documentação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controle-de-versao-da-documentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controle de Versão da Documentação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autor(es)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Metodologia</h1>
+
+<h2 id="introducao">Introdução</h2>
+<p align = "justify">
+A metodologia pode ser definida como a sistematização de métodos e técnicas com o intuito de se alcançar um objetivo. Este documento aborda as metodologias, processos e práticas efetivamente utilizadas no desenvolvimento do projeto Simblissima, um sistema de gerenciamento de pedidos e entregas para a Ilha Primeira, construído como uma API REST com interface Single Page Application (SPA).
+</p>
+
+<h2 id="metodologia">Metodologia</h2>
+<p align = "justify">
+A equipe adotou uma abordagem híbrida que combina elementos de metodologias ágeis com práticas de desenvolvimento iterativo. O desenvolvimento foi estruturado em interações bem definidas, com foco na entrega contínua de valor e na adaptação às necessidades do projeto. As práticas utilizadas foram escolhidas com base na experiência da equipe e nos requisitos específicos do sistema Simblissima.
+</p>
+
+<h3 id="metodologias-e-praticas-adotadas">Metodologias e Práticas Adotadas</h3>
+<h4 id="rup-rational-unified-process">RUP (Rational Unified Process)</h4>
+<p align = "justify">
+O RUP foi utilizado como base estrutural para organizar as fases do projeto, proporcionando uma abordagem disciplinada e iterativa. O projeto seguiu as fases de Iniciação, Elaboração, Construção e Transição, com documentação técnica detalhada e artefatos bem definidos.
+</p>
+
+<h4 id="desenvolvimento-iterativo">Desenvolvimento Iterativo</h4>
+<p align = "justify">
+O projeto foi desenvolvido através de iterações sucessivas, permitindo refinamento contínuo dos requisitos e entrega incremental de funcionalidades. Cada iteração incluiu análise, design, implementação e testes das funcionalidades propostas.
+</p>
+
+<h4 id="kanban">Kanban</h4>
+<p align = "justify">
+Foi utilizado um sistema de gerenciamento visual das tarefas, organizando o trabalho em diferentes estágios do desenvolvimento, desde o backlog até a conclusão, facilitando o acompanhamento do progresso e a identificação de gargalos.
+</p>
+
+<h2 id="praticas-de-desenvolvimento">Práticas de Desenvolvimento</h2>
+<h3 id="versao-10">Versão 1.0</h3>
+<h3 id="arquitetura-e-design">Arquitetura e Design</h3>
+<h4 id="padrao-cliente-servidor">Padrão Cliente-Servidor</h4>
+<p align = "justify">
+O sistema foi desenvolvido seguindo o padrão Cliente-Servidor, onde o frontend (SPA) atua como cliente enviando requisições HTTP para o backend (API Django REST Framework) que processa e retorna as respostas apropriadas.
+</p>
+
+<h4 id="padrao-mvt-model-view-template">Padrão MVT (Model-View-Template)</h4>
+<p align = "justify">
+Utilizando o framework Django, o backend segue o padrão MVT onde os Models representam a estrutura de dados, as Views (ViewSets) contêm a lógica de negócio e os Templates são substituídos por serializers para comunicação com o frontend.
+</p>
+
+<h4 id="programacao-orientada-a-objetos-poo">Programação Orientada a Objetos (POO)</h4>
+<p align = "justify">
+O desenvolvimento utilizou amplamente os princípios da POO, com criação de classes modelando entidades do domínio (Cliente, Pedido, ItemPedido, StatusPedido), herança de classes base do Django e Django REST Framework, e encapsulamento da lógica de negócio em métodos específicos.
+</p>
+
+<h3 id="tecnologias-e-ferramentas">Tecnologias e Ferramentas</h3>
+<h4 id="backend">Backend</h4>
+<ul>
+<li><strong>Python</strong>: Linguagem principal do desenvolvimento backend</li>
+<li><strong>Django</strong>: Framework web para desenvolvimento rápido e eficiente</li>
+<li><strong>Django REST Framework</strong>: Toolkit para construção da API RESTful</li>
+<li><strong>SQLite</strong>: Banco de dados utilizado para desenvolvimento e testes</li>
+</ul>
+<h4 id="frontend">Frontend</h4>
+<ul>
+<li><strong>JavaScript</strong>: Linguagem para interatividade da SPA</li>
+<li><strong>HTML5 e CSS3</strong>: Estrutura e estilização da interface</li>
+<li><strong>Bootstrap</strong>: Framework CSS para design responsivo</li>
+</ul>
+<h4 id="ferramentas-de-desenvolvimento">Ferramentas de Desenvolvimento</h4>
+<ul>
+<li><strong>Git/GitHub</strong>: Controle de versão e colaboração</li>
+<li><strong>Visual Studio Code</strong>: Ambiente de desenvolvimento integrado</li>
+<li><strong>Live Share</strong>: Colaboração em tempo real no código</li>
+<li><strong>Discord/WhatsApp</strong>: Comunicação da equipe</li>
+</ul>
+<h3 id="praticas-de-qualidade">Práticas de Qualidade</h3>
+<h4 id="validacao-e-seguranca">Validação e Segurança</h4>
+<p align = "justify">
+Implementação de validações rigorosas nos serializers (CPF com 11 dígitos, preços positivos, emails únicos), sistema de autenticação por sessão, controle de permissões baseado em roles (IsOwnerOrStaff), e proteção CSRF para prevenir ataques cross-site request forgery.
+</p>
+
+<h4 id="tratamento-de-erros">Tratamento de Erros</h4>
+<p align = "justify">
+Implementação de respostas de erro padronizadas com códigos HTTP apropriados, logs detalhados para debug e desenvolvimento, e mensagens informativas para melhor experiência do usuário.
+</p>
+
+<h4 id="transacoes-atomicas">Transações Atômicas</h4>
+<p align = "justify">
+Utilização de transaction.atomic() para garantir consistência de dados em operações complexas, como criação de pedidos com status inicial e atualização de valores totais.
+</p>
+
+<h3 id="organizacao-do-trabalho">Organização do Trabalho</h3>
+<h4 id="quadro-kanban">Quadro Kanban</h4>
+<p align = "justify">
+O gerenciamento de tarefas foi organizado através de um quadro Kanban com as seguintes colunas:
+</p>
+
+<ul>
+<li><strong>Lista de Tarefas</strong>: Contém todas as tarefas identificadas para o projeto</li>
+<li><strong>Incremento</strong>: Contém as tarefas selecionadas para a iteração atual</li>
+<li><strong>Em andamento</strong>: Contém as tarefas sendo desenvolvidas</li>
+<li><strong>Revisão</strong>: Contém as tarefas que precisam ser revisadas antes da conclusão</li>
+<li><strong>Concluído</strong>: Contém as tarefas finalizadas e validadas</li>
+</ul>
+<h4 id="tecnicas-de-elicitacao-de-requisitos">Técnicas de Elicitação de Requisitos</h4>
+<p align = "justify">
+Foram utilizadas diversas técnicas para levantamento de requisitos:
+</p>
+
+<ul>
+<li><strong>Brainstorming</strong>: Sessões colaborativas para geração de ideias e funcionalidades</li>
+<li><strong>5W2H</strong>: Estruturação clara dos objetivos e escopo do projeto</li>
+<li><strong>Entrevistas</strong>: Coleta de informações detalhadas sobre necessidades dos usuários</li>
+<li><strong>Prototipação</strong>: Desenvolvimento de protótipos de alta fidelidade usando Figma</li>
+</ul>
+<h3 id="processo-de-desenvolvimento">Processo de Desenvolvimento</h3>
+<h4 id="fases-do-projeto">Fases do Projeto</h4>
+<p align = "justify">
+O desenvolvimento seguiu as fases do RUP adaptadas para o contexto acadêmico:
+</p>
+
+<p><strong>Iniciação</strong>: Definição do problema, escopo e objetivos através de técnicas como brainstorming, 5W2H e documento de visão. Criação dos mapas mentais e prototipação inicial.</p>
+<p><strong>Elaboração</strong>: Modelagem detalhada do sistema com diagramas de casos de uso, diagramas de classes e documento de arquitetura de software (DAS). Refinamento dos requisitos e definição da arquitetura.</p>
+<p><strong>Construção</strong>: Implementação efetiva do sistema com desenvolvimento da API REST, interface SPA, sistema de autenticação, CRUD de pedidos e dashboard administrativo.</p>
+<p><strong>Transição</strong>: Preparação para implantação, documentação de instalação e procedimentos de deploy.</p>
+<h4 id="retrospectivas-e-melhoria-continua">Retrospectivas e Melhoria Contínua</h4>
+<p align = "justify">
+A equipe realizou reuniões de retrospectiva ao final de cada iteração, identificando pontos positivos, negativos e oportunidades de melhoria. Isso incluiu:
+</p>
+
+<ul>
+<li>Avaliação da comunicação e colaboração da equipe</li>
+<li>Identificação de dificuldades técnicas e soluções encontradas</li>
+<li>Ajustes no processo de desenvolvimento baseados no feedback</li>
+<li>Definição de ações para melhorar a eficiência nas próximas iterações</li>
+</ul>
+<h3 id="documentacao">Documentação</h3>
+<h4 id="padroes-de-documentacao">Padrões de Documentação</h4>
+<p align = "justify">
+Foi estabelecido um template padrão para todos os documentos do projeto, garantindo consistência e facilidade de manutenção. A documentação incluiu:
+</p>
+
+<ul>
+<li>Documentos de iniciação (visão, metodologia, requisitos)</li>
+<li>Modelagem técnica (casos de uso, classes, arquitetura)</li>
+<li>Documentação de construção e implementação</li>
+<li>Guias de transição e implantação</li>
+</ul>
+<h4 id="controle-de-versao-da-documentacao">Controle de Versão da Documentação</h4>
+<p align = "justify">
+Todos os documentos mantiveram histórico de versões detalhado, incluindo data, versão, descrição das alterações e autores responsáveis, garantindo rastreabilidade das mudanças ao longo do projeto.
+</p>
+
+<h2 id="conclusao">Conclusão</h2>
+<p align = "justify">
+O projeto Simblissima utilizou uma abordagem metodológica híbrida que combinou elementos do RUP com práticas ágeis, resultando em um processo de desenvolvimento eficiente e bem estruturado. A adoção de técnicas de elicitação de requisitos, desenvolvimento iterativo, padrões arquiteturais bem definidos e práticas de qualidade contribuiu para o sucesso do projeto.
+
+A utilização de tecnologias modernas como Django REST Framework para o backend e SPA para o frontend, combinada com práticas de segurança e validação rigorosas, resultou em um sistema robusto e funcional. O processo de documentação padronizado e o controle de versão garantiram a rastreabilidade e manutenibilidade do projeto.
+
+As retrospectivas regulares e a comunicação efetiva da equipe através de ferramentas colaborativas foram fundamentais para o aprendizado contínuo e a adaptação do processo às necessidades específicas do projeto acadêmico.
+</p>
+
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>[1] RATIONAL UNIFIED PROCESS (RUP). Disponível em: https://www.ibm.com/docs/en/rational-unified-process. Acesso em: 02 jun. 2025.</p>
+<p>[2] KANBAN. Disponível em: https://kanbanize.com/kanban-resources/getting-started/what-is-kanban. Acesso em: 02 jun. 2025.</p>
+<p>[3] DJANGO DOCUMENTATION. Disponível em: https://docs.djangoproject.com/. Acesso em: 02 jun. 2025.</p>
+<p>[4] DJANGO REST FRAMEWORK. Disponível em: https://www.django-rest-framework.org/. Acesso em: 02 jun. 2025.</p>
+<p>[5] SOMMERVILLE, I. Engenharia de Software. 9ª ed. São Paulo: Pearson Prentice Hall, 2011.</p>
+<p>[6] PRESSMAN, R. S. Engenharia de Software: Uma Abordagem Profissional. 7ª ed. Porto Alegre: AMGH, 2011.</p>
+</blockquote>
+<h2 id="autores">Autor(es)</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>24/03/2025</td>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>Bernardo Lobo, Bernardo Moreira, Guilherme Dias, Julia Curto e Michel de Melo</td>
+</tr>
+<tr>
+<td>02/06/2025</td>
+<td>2.0</td>
+<td>Atualização completa para refletir as metodologias e práticas efetivamente utilizadas no projeto Simblissima</td>
+<td>Bernardo Lobo, Bernardo Moreira, Guilherme Dias, Julia Curto e Michel de Melo</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

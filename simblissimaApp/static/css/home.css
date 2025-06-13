@@ -1,0 +1,197 @@
+/* Home page styles */
+.home-bg {
+    background: #f4f6fb;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 350px;
+}
+
+.home-content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Profile container styles */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 350px;
+}
+
+.profile-content {
+    max-width: 800px;
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+/* Cards row styles */
+.home-cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 32px;
+    gap: 32px;
+    width: 100%;
+}
+
+.home-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+    padding: 32px 28px 24px 28px;
+    width: calc(50% - 16px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 170px;
+}
+
+.home-card h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.home-card p {
+    font-size: 1rem;
+    margin-bottom: 18px;
+}
+
+.home-card .btn {
+    width: 120px;
+}
+
+.home-card .card-body {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.row .card {
+    margin-bottom: 0;
+}
+
+.row .card-body {
+    padding: 24px 20px 20px 20px;
+    margin-bottom: 0;
+}
+
+/* Container styles */
+.home-content.cnmt {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.07);
+    padding: 24px;
+    margin: 24px -12px 24px -12px;
+}
+
+/* Jumbotron styles */
+.home-content .jumbotron {
+    background: #f8f9fa;
+    padding: 48px 24px !important;
+    margin-bottom: 32px !important;
+}
+
+.home-content .jumbotron .display-4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #1565c0;
+}
+
+.home-content .jumbotron .lead {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+/* Jumbotron e Cards Section */
+.home-content .jumbotron {
+    margin-bottom: 1.5rem !important;
+    padding: 2rem 2rem !important;
+}
+
+.home-content .home-cards-section {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+@media (max-width: 991px) {
+    .home-content.cnmt {
+        padding: 24px 20px;
+    }
+    
+    .home-content .jumbotron {
+        padding: 32px 20px !important;
+    }
+    
+    .home-content .jumbotron .display-4 {
+        font-size: 2rem;
+    }
+    
+    .home-content .jumbotron .lead {
+        font-size: 1.1rem;
+    }
+    
+    .home-cards-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+    }
+    
+    .home-card {
+        width: 100%;
+        max-width: none;
+        padding: 24px 20px;
+    }
+    
+    .home-content .card-body {
+        padding: 24px !important;
+    }
+    
+    .home-content .card-title {
+        font-size: 1.25rem;
+    }
+    
+    .home-content .card-text {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    .home-content .jumbotron {
+        margin-bottom: 2rem !important;
+        padding: 2.5rem 1.5rem !important;
+    }
+    
+    .home-content .home-cards-section {
+        padding: 0 0.5rem;
+    }
+}
+
+/* Removed margin styles as we're using gap */
+
+/* Other existing styles */
+.jumbotron {
+    border-radius: 16px !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: white;
+}
+
+.jumbotron * {
+    border-radius: 16px !important;
+}
+
+/* Form styles */
+.form-control, .form-select {
+    border-radius: 10px !important;
+    box-shadow: 0 1px 4px 0 #1565c01a !important;
+    border: 1px solid #e3e6ef !important;
+}

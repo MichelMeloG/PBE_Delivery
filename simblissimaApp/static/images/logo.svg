@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="32" viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Barco estilizado -->
+  <g>
+    <rect x="0" y="2" width="28" height="28" rx="7" fill="#1565c0"/>
+    <g>
+      <!-- Casco do barco -->
+      <path d="M7 22 Q14 30 21 22 Q20 26 14 28 Q8 26 7 22 Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <!-- Mastro -->
+      <rect x="13" y="8" width="1.5" height="8" fill="#fff"/>
+      <!-- Vela -->
+      <path d="M14.5 9 Q21 13 14.5 19 Z" fill="#90caf9"/>
+      <path d="M13 9 Q7 15 13 19 Z" fill="#fff"/>
+      <!-- Onda -->
+      <path d="M8 23 Q11 25 14 23 Q17 25 20 23" stroke="#90caf9" stroke-width="1" fill="none"/>
+    </g>
+  </g>
+  <!-- Nome do sistema em branco, centralizado verticalmente -->
+  <text x="36" y="23" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#fff" font-weight="bold">Simblissima Delivery</text>
+</svg>

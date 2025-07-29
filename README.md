@@ -3,16 +3,6 @@
 **Número do Grupo**: 2<br>
 **Código da Disciplina**: IBM-8936<br>
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| Bernardo Lobo Marques  |  202401709433  |
-| Bernardo Moreira Guimarães Gonçalves  |  202401500283 |
-| Guilherme Dias Batista | 202402972091 |
-| Michel de Melo Guimarães | 202401569852 |
-| Julia Dominguez Curto |  202402192477 |
-
-
 ## Sobre 
 Nosso projeto consiste em desenvolver uma API REST para gerenciamento de pedidos e entregas, focando na logística de produtos do continente para a Ilha Primeira, utilizando um sistema de integração com barcos já existentes.
 
@@ -27,7 +17,7 @@ Nosso projeto consiste em desenvolver uma API REST para gerenciamento de pedidos
 
 ## Instalação 
 **Linguagens**: Python<br>
-**Tecnologias**: Django, Django REST Framework, SQLite, HTML, CSS, JavaScript, Bootstrap<br>
+**Tecnologias**: Django, Django REST Framework, SQLite, HTML, CSS, JavaScript, <br>
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
